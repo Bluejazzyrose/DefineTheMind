@@ -1,0 +1,18 @@
+/*Jasmine Frye*/
+/*Define The Mind Typology Stylesheet*/
+
+.flexer	{display: flex;}
+.flexed	{flex: 1;}
+		
+.instruction	{margin-left: 20px;
+				border-left: 2px solid #3AB54A;
+				padding-left: 20px;}
+				
+.deats	{display: block;
+		padding-bottom: 10px;
+		list-style-type: none;
+		font-family: Tahoma, Verdana, sans-serif;}
+
+@media	(max-width: 750px){
+		.flexer	{flex-direction: column;}
+		}
