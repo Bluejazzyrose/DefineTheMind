@@ -152,6 +152,7 @@ function tally() {
 	pi = 0;
 	je = 0;
 	ji = 0;
+	
 	for (let i = 0; i < qNum; i++) {
 		if (userAnswers[i] == 'a') {
 			switch (i) {
