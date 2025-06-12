@@ -123,6 +123,21 @@ let acronym = new Array(4);
 
 let qNum = 25;
 
+// variables to keep track of quiz stat answers
+let se = 0;
+let si = 0;
+let ne = 0;
+let ni = 0;
+let fe = 0;
+let fi = 0;
+let te = 0;
+let ti = 0;
+let pe = 0;
+let pi = 0;
+let je = 0;
+let ji = 0;
+
+
 // function to tally stat totals
 function tally() {
 	se = 0;
@@ -402,16 +417,6 @@ function calculate() {
 	} // end while loop
 	// end function calculations
 
-	// test logic
-	console.log(qNum);
-	console.log(acronym);
-	console.log(userAnswers);
-	console.log(se);
-	console.log(si);
-	console.log(ne);
-	console.log(ni);
-	console.log(fe);
-	console.log(fi);
-	console.log(te);
-	console.log(ti);
+	// display Type result
+	question.innerHTML = "We have defined your mind as: " + acronym[0] + acronym[1] + acronym[2] + acronym[3];
 }
