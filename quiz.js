@@ -79,7 +79,7 @@ function buildQuiz() {
 	
 	// if ans1 is clicked
 	ans3.onclick = function() {
-		if (counter === 16 || counter === 17) {
+		if (counter in dAnswers) {
 			userAnswers[counter] = 'c'; // add to result array
 			counter++;
 			askQuestion(); // progress quiz
@@ -88,7 +88,7 @@ function buildQuiz() {
 	
 	// if ans1 is clicked
 	ans4.onclick = function() {
-		if (counter === 16 || counter === 17) {
+		if (counter in dAnswers) {
 			userAnswers[counter] = 'd'; // add to result array
 			counter++;
 			askQuestion(); // progress quiz
