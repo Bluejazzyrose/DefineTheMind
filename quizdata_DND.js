@@ -414,14 +414,6 @@ function calculate() {
 		break;
 	} // end while loop
 	// end function calculations
-	
-	// test logic
-	console.log("strength: " + strength);
-	console.log("dexterity: " + dexterity);
-	console.log("constitution: " + constitution);
-	console.log("intelligence: " + intelligence);
-	console.log("wisdom: " + wisdom);
-	console.log("charisma: " + charisma);
 
 	// display Type result
 	question.innerHTML = "Your top two stats are " + statName1 + " and " + statName2;
