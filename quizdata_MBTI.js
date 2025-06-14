@@ -421,3 +421,8 @@ function calculate() {
 	// display Type result
 	question.innerHTML = "We have defined your mind as: " + acronym[0] + acronym[1] + acronym[2] + acronym[3];
 }
+
+// function to retake the quiz
+function retake() {
+	window.location.href = "quizMBTI.html";
+}
