@@ -48,7 +48,7 @@ function askQuestion() {
 		}
 		
 		ans2.onclick = function() {
-			window.location.href = "quizMBTI.html";
+			retake();
 		}
 	}
 }
